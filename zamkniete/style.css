@@ -1,0 +1,43 @@
+body{
+    color:#fff;
+    background: #1f1f1f;
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    width: 40%;
+    margin:auto;
+}
+
+.green{
+    background-color: green;
+}
+#button{
+    text-align: center;
+    margin:0;
+    border: 5px solid #ffdd00;
+    border-radius:30px;
+    padding:15px;
+    font-size:40px;
+    background:#aaa;
+    
+}
+#button:hover{
+    background: white;
+}
+.photo{
+
+    background:white;
+    border:5px solid #ffdd00;
+}
+hr{
+    border: 5px solid #F00;
+    width:645px;
+    border-radius: 30px;
+}
+a{
+    color:#000;
+text-decoration: none;}
+
+#center{
+    text-align: center;
+}
