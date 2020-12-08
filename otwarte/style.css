@@ -17,22 +17,27 @@ form{
     border: 5px solid #ffdd00;
     border-radius:30px;
     padding:15px;
-    font-size:50px;
+    font-size:40px;
     background:#aaa;
     
 }
 #button:hover{
-
     background: white;
 }
 .photo{
-   height:360px;
-    width:640px;
+
     background:white;
     border:5px solid #ffdd00;
 }
+hr{
+    border: 5px solid #F00;
+    width:645px;
+    border-radius: 30px;
+}
+a{
+    color:#000;
+text-decoration: none;}
 
-a{color:#ffdd00;}
-#podsumowanie{
+#center{
     text-align: center;
 }

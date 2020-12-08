@@ -3,30 +3,86 @@
     <meta charset="utf-8">
     <title>Pytania ABCD - ruch jednostajny po okręgu</title>
     <link rel='stylesheet' href='style.css'>
-    <script src="script.js"></script>
+
 </head>
 <body>
-    
 <form id="quiz" name="quiz">
-    
         
-     <br><p><b>Zadanie 1.</b><br><br>Licznik rowerowy zmierzył prędkość jazdy roweru 25km/h, rower ma 24 calowe koła.<br><br><b>Ile wynosi okres obrotu kół?</b></p><br>
-    <img class="photo" src="img/odpzad1.png"><br><br>
-     <br><p><b>Zadanie 2.</b><br><br>Samochód którego koła mają średnicę 50 cm porusza się ruchem jednostajnym z prędkością 31,4 m/s. <br><br><b>Oblicz okres obrotu koła, jego częstotliwość i prędkość kątową.</b></p><br>
-    <img class="photo" src="img/odpzad2.png"><br><br>
-     <br><p><b>Zadanie 3.</b><br><br>Długość promienia równikowego wynosi 6378,137 km.<br><br><b>Oblicz prędkość liniową na równiku.</b></p><br>
-    <img class="photo" src="img/odpzad3.png"><br><br>
-    <br><p><b>Zadanie 4.</b><br><br>Proton ma prędkość 5 × 10<sup>6</sup> m/s i porusza się po okręgu o promieniu r = 0,175 m w płaszczyźnie XY. W momencie t = 0 jego pozycja  wynosi 0,175 m • î. Proton krąży  w kierunku przeciwnym do ruchu wskazówek zegara.<br><br><b>Jakie jest jego położenie na płaszczyźnie XY w czasie t = 2,0 × 10<sup>-7</sup>s = 200 ns?  Naszkicuj trajektorię ruchu protona.</b></p><br>
-    <img class="photo" src="img/odpzad4.png"><br><br>
-    <br><p><b>Zadanie 5.</b><br><br> Pewien tor wyścigowy ma kształt pierścienia kołowego o promieniu wewnętrznym R1 i promieniu zewnętrznym R2. Dwaj motocykliści obrali różne taktyki wyścigowe. Pierwszy z nich porusza się po torze wewnętrznym, drugi po zewnętrznym, obaj osiągają największą możliwą prędkość. Pojazdy poruszają się bez poślizgu.<br><br><b>Która taktyka prowadzi do wygrania wyścigu?</b></p><br>
-    <img class="photo" src="img/odpzad5.png"><br><br>
 
+     <p>1. Ruch jednostajny po okręgu to ruch, w którym:</p>
+    <input disabled type="radio"  name="p1" value="1"><span>kierunek i zwrot wektora prędkości nie ulegają zmianie w czasie</span><br>
+     <input disabled type="radio"  name="p1" value="2"><span>bezwzględna wartość wektora prędkości ulega zmianie w czasie</span><br>
+     <input disabled type="radio"  name="p1" value="3"><span>kierunek i zwrot wektora prędkości jest zgodny z kierunkiem i zwrotem wektora przyspieszenia</span><br>
+     <input disabled type="radio"  name="p1" value="4"><span class="green"><span>bezwzględna wartość wektora prędkości przyjmuje stałą wartość</span></span><br>
+     
+     <br><p>2. Prędkość w ruchu jednostajnym po okręgu jest stała.</p>
+     <input disabled type="radio"  name="p2" value="p"><span class="green">Prawda</span><br>
+     <input disabled type="radio"  name="p2" value="f"><span>Fałsz</span><br>
+     
+     <br><p>3. Tor ruchu zakrzywiany jest przez:</p>
+     <input disabled type="radio"  name="p3" value="1"><span>Okres obiegu</span><br>
+     <input disabled type="radio"  name="p3" value="2"><span class="green">Przyspieszenie liniowe</span><br>
+     <input disabled type="radio"  name="p3" value="3"><span>Przyspieszenie dośrodkowe</span><br> 
+     <input disabled type="radio"  name="p3" value="4"><span>Prędkość kątową</span><br>
+     
+    <br><p>4. Wektor przyspieszenia ciała poruszającego się ruchem jednostajnym po okręgu jest zawsze:</p>
+     <input disabled type="radio"  name="p4" value="1"><span class="green">skierowany wzdłuż promienia okręgu, ku jego środkowi</span><br>
+     <input disabled type="radio"  name="p4" value="2"><span>styczny do okręgu i zwrócony w kierunku ruchu ciała </span><br>
+     <input disabled type="radio"  name="p4" value="3"><span>styczny do okręgu i zwrócony w kierunku przeciwnym do ruchu ciała</span><br>
+     <input disabled type="radio"  name="p4" value="4"><span>skierowany wzdłuż promienia okręgu i zwrócony w kierunku poruszającego się ciała</span><br>
+    
+        <br><p>5. Prędkość kątowa jest wektorem.</p>
+     <input disabled type="radio"  name="p5" value="p"><span class="green">Prawda</span><br>
+     <input disabled type="radio"  name="p5" value="f"><span>Fałsz</span><br>
+    
+         <br><p>6. Tarcza gramofonu obraca się 30 razy w ciągu 1 minuty. Okres obrotu tarczy wynosi:</p>
+     <input disabled type="radio"  name="p6" value="1"><span class="green">2 s</span><br> 
+     <input disabled type="radio"  name="p6" value="2"><span>0.5 s </span><br>
+     <input disabled type="radio"  name="p6" value="3"><span>30 s</span><br>
+     <input disabled type="radio"  name="p6" value="4"><span>5 s</span><br> 
+    
+        <br><p>7. Prędkość kątowa wskazówki minutowej jest większa od prędkości kątowej wskazówki godzinowej zegara:</p>
+     <input disabled type="radio"  name="p7" value="1"><span>24 razy </span><br>
+     <input disabled type="radio"  name="p7" value="2"><span class="green">12 razy </span><br> 
+     <input disabled type="radio"  name="p7" value="3"><span>60 razy</span><br> 
+     <input disabled type="radio"  name="p7" value="4"><span>6 razy</span><br>
+    
+    <br><p>8. Pszczółka Maja lata z prędkością 0.5m/s po okręgu o promieniu 1m. Ile wynosi jej przyspieszenie?</p>
+     <input disabled type="radio"  name="p8" value="1"><span>0.5 m/s<sup>2</sup></span><br>
+     <input disabled type="radio"  name="p8" value="2"><span>1 m/s<sup>2</sup> </span><br>
+     <input disabled type="radio"  name="p8" value="3"><span class="green">0.25 m/s<sup>2</sup></span><br>
+     <input disabled type="radio"  name="p8" value="4"><span>2 m/s<sup>2</sup></span><br>
+     
+    
+        <br><p>9. Pilot wykonujący pętle z predkością 400 m/s odczul przyspieszenie dośrodkowe rowne 2g. Ile wynosi średnica petli?</p>
+     <input disabled type="radio"  name="p9" value="1"><span>23 metry</span><br>
+     <input disabled type="radio"  name="p9" value="2"><span>203 metry </span><br>
+     <input disabled type="radio"  name="p9" value="3"><span>ok. 80 metrów</span><br>
+     <input disabled type="radio"  name="p9" value="4"><span class="green">8163 metry</span><br>
+    
+        <br><p>10. Która z ponizszych jest jednostką częstotliwości: </p>
+     <input disabled type="radio"  name="p10" value="1"><span class="green">Herc </span><br> 
+     <input disabled type="radio"  name="p10" value="2"><span>Radian </span><br>
+     <input disabled type="radio"  name="p10" value="3"><span>Sekunda</span><br>
+     <input disabled type="radio"  name="p10" value="4"><span>Henr</span><br>
+    
+        <br><p>11. Chłopiec na karuzeli wykonuje w okresie 2 minut 12 obrotów. Ile wynosi okres i częstotliwość?</p>
+     <input disabled type="radio"  name="p11" value="1"><span>T= 1/6 s; f=6 Hz</span><br>
+     <input disabled type="radio"  name="p11" value="2"><span>T= 0,1 s; f=10 Hz</span><br>
+     <input disabled type="radio"  name="p11" value="3"><span class="green">T= 10 s; f = 0,1 Hz</span><br>
+     <input disabled type="radio"  name="p11" value="4"><span>T= 120s;f=1/12 Hz</span><br>
+    
+        <br><p>12. Jak zmieni się przyspieszenie dośrodkowe ciała poruszającego się ruchem jednostajnym po okręgu, jeżeli prędkość ciała wzrośnie trzykrotnie a promień okręgu pozostanie bez zmian?</p>
+     <input disabled type="radio"  name="p12" value="1"><span>wzrośnie trzykrotnie</span><br>
+     <input disabled type="radio"  name="p12" value="2"><span class="green">wzrośnie dziewięciokrotnie </span><br>
+     <input disabled type="radio"  name="p12" value="3"><span>zmaleje dziewięciokrotnie</span><br>
+     <input disabled type="radio"  name="p12" value="4"><span>zmaleje trzykrotnie</span><br>
+    
 
     
-      </form>
-         
-    <div id="modal"></div>
+    
 
      
+     </form>
 
 </body>
